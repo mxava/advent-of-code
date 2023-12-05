@@ -1,0 +1,19 @@
+{
+    {
+        'line_idx': 0,
+        'line_contents': '467..114..'
+        'numbers': {    
+            '0': 467,
+            '5': 114
+        },
+        'number_indices': [0, 1, 2, 5, 6, 7],
+        'symbol_indices': {}
+    },
+    {
+        'line_idx': 1,
+        'line_contents': '...*......'
+        'numbers': {},
+        'number_indices': [],
+        'symbol_indices': []
+    }
+}
