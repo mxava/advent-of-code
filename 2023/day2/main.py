@@ -1,32 +1,5 @@
 from pathlib import Path
 
-
-#def solve1(input:dict, limitations:dict):
-#    r_limit = limitations[red]
-#    g_limit = limitations[green]
-#    b_limit = limitations[blue]
-#    total_r = int()
-#    total_g = int()
-#    total_b = int()
-#    for each in list(input.values()):
-#        parse = each.split(' ')
-#        if parse[1] == 'red':
-#            total_r += int(parse[0])
-#        if parse[1] == 'green':
-#            total_g += int(parse[0])
-#        if parse[1] == 'blue':
-#            total_b += int(parse[0])
-#    if total_r > r_limit:
-#        return 0
-#    elif total_g > g_limit:
-#        return 0
-#    elif total_b > b_limit:
-#        return 0
-#    else:
-#        return input
-    
-
-
 def solve1(input:str, limitations:dict) -> int:
     # Sanitize input of newlines
     input = input.strip('\n')
